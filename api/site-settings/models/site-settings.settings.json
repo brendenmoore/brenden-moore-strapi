@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "name": "Site Settings"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Heading": {
+      "type": "string"
+    },
+    "Subheading": {
+      "type": "string"
+    }
+  }
+}
